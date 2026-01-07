@@ -1,4 +1,32 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+
+  /* THEME-DARK__SOURCES */
+  --neon-pink: #FF0070;
+  --neon-pink-alpha: #FF007066;
+  --neon-purple: #DB00FF;
+  --midnight-blue: #000028;
+  --powder-pink: #F1B2CE;
+  --light-pink: #FFF1F7;
+
+  /* THEME-LIGHT__SOURCES */
+  --light-pink: #FFF1F7;
+  --candy-floss: #FF8DCB;
+  --graphite: #353430;
+  --graphite-alpha: #32312D66;
+  --pale-petal: #FFC2E6;
+
+  /* DEFAULT  */
+  --button-color: var(--neon-pink);
+  --color-accent: var(--neon-pink);
+  --color-text-main: var(--powder-pink);
+  --color-text-secondary: var(--midnight-blue);
+  --color-text-tertiary: var(--neon-pink);
+  --color-bg: var(--midnight-blue);
+  --color-title: var(--neon-purple);
+  --decoration-color: var(--neon-pink);
+
+  --ff-main: 'IBM Plex Mono';
+
+  --bg-path: url(/images/cover-image-dark.png);
+
+}

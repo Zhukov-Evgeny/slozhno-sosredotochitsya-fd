@@ -1,12 +1,23 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-path: url(/images/cover-image-light.png);
+  --color-bg: var(--light-pink);
+  --color-accent: var(--candy-floss);
+  --color-title: var(--pale-petal);
+  --button-color: var(--graphite);
+  --color-text-main: var(--graphite);
+  --color-text-tertiary: var(--graphite);
+  --decoration-color: var(--graphite);
+  --color-text-secondary: var(--graphite);
+}
+
+.theme-light .header__theme-menu-button:hover {
+  border: 1px solid var(--graphite-alpha);
+}
+
+.theme-light .rec {
+  display: none;
+}
+
+.theme-light .footer .caption-text {
+  text-shadow: 4px 4px 0px var(--color-accent);
 }
