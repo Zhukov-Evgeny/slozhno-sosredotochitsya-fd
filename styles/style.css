@@ -107,9 +107,6 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--button-color);
-}
-
-.header__theme-menu-button_active {
   pointer-events: none;
 }
 
