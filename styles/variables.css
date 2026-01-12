@@ -9,7 +9,6 @@
   --light-pink: #FFF1F7;
 
   /* THEME-LIGHT__SOURCES */
-  --light-pink: #FFF1F7;
   --candy-floss: #FF8DCB;
   --graphite: #353430;
   --graphite-alpha: #32312D66;
@@ -25,8 +24,8 @@
   --color-title: var(--neon-purple);
   --decoration-color: var(--neon-pink);
 
-  --ff-main: 'IBM Plex Mono';
+  --ff-main: 'IBM Plex Mono', monospace;
 
-  --bg-path: url(/images/cover-image-dark.png);
+  --bg-path: url(../images/cover-image-dark.png);
 
 }

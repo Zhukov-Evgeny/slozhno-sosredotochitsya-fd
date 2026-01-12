@@ -1,5 +1,5 @@
 :root.theme-light {
-  --bg-path: url(/images/cover-image-light.png);
+  --bg-path: url(../images/cover-image-light.png);
   --color-bg: var(--light-pink);
   --color-accent: var(--candy-floss);
   --color-title: var(--pale-petal);
@@ -18,6 +18,30 @@
   display: none;
 }
 
-.theme-light .footer .caption-text {
-  text-shadow: 4px 4px 0px var(--color-accent);
+
+/* THEME--AUTO  */
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --bg-path: url(../images/cover-image-light.png);
+    --color-bg: var(--light-pink);
+    --color-accent: var(--candy-floss);
+    --color-title: var(--pale-petal);
+    --button-color: var(--graphite);
+    --color-text-main: var(--graphite);
+    --color-text-tertiary: var(--graphite);
+    --decoration-color: var(--graphite);
+    --color-text-secondary: var(--graphite);
+  }
+
+
+  .header__theme-menu-button:hover {
+    border: 1px solid var(--graphite-alpha);
+  }
+
+  .rec {
+    display: none;
+  }
+
 }

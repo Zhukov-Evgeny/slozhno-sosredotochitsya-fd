@@ -25,8 +25,6 @@
 <body class="page">
   <header class="header decorated-zone">
     <nav class="header__theme-menu">
-      <div class="decoration-border decoration-border--top-right"></div>
-      <div class="decoration-border decoration-border--bottom-left"></div>
       <ul class="header__theme-menu-list">
         <li class="header__theme-menu-item">
           <button class="header__theme-menu-button header__theme-menu-button_type_light">
@@ -55,14 +53,14 @@
   </header>
 
   <main class="main">
-    <article class="post post--alt-layout">
+    <section class="post section-why">
 
-      <section class="section">
+      <div class="inner-section inner-section--heading">
         <h2 class="post__title">Почему сосредоточиться так сложно</h2>
-      </section>
+      </div>
 
-      <section class="section">
-        <div class="post__content">
+      <div class="inner-section">
+        <article class="post__content">
           <h3 class="post__lead lead-text lead-decor">Многозадачность</h3>
           <p class="post__description">Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же
             легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в
@@ -71,9 +69,9 @@
             делах одновременно. А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет
             кортизол и адреналин — «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
           </p>
-        </div>
+        </article>
 
-        <div class="post__content">
+        <article class="post__content">
           <h3 class="post__lead lead-text lead-decor">Дофамин</h3>
           <p class="post__description">
             С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей
@@ -85,18 +83,18 @@
             удовольствие. Получается замкнутый круг: чем больше отвлекаешься,
             тем больше удовольствия получаешь.
           </p>
-        </div>
-      </section>
+        </article>
+      </div>
 
-    </article>
+    </section>
 
-    <article class="post">
-      <section class="section">
+    <section class="post section-causes">
+      <div class="inner-section inner-section--heading">
         <h2 class="post__title">Что снижает концентрацию внимания?</h2>
-      </section>
+      </div>
 
-      <section class="section">
-        <div class="post__content">
+      <div class="inner-section inner-section--alt">
+        <article class="post__content">
           <h3 class="post__lead lead-text lead-decor">Многозадачность</h3>
           <p class="post__description">
             Как концентрация может снижаться из-за… концентрации? Любая
@@ -106,8 +104,8 @@
             — невозможно. Концентрация — мышца, и она может не выдержать, если
             не давать ей отдохнуть.
           </p>
-        </div>
-        <div class="post__content">
+        </article>
+        <article class="post__content">
           <h3 class="post__lead lead-text lead-decor">Еда</h3>
           <p class="post__description">
             «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -117,8 +115,8 @@
             заканчивается, мы чувствуем усталость и сонливость. И хотим ещё
             больше быстрых углеводов.
           </p>
-        </div>
-        <div class="post__content">
+        </article>
+        <article class="post__content">
           <h3 class="post__lead lead-text lead-decor">Гаджеты</h3>
           <p class="post__description">
             Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -129,24 +127,25 @@
             что чем больше времени мы проводим в гаджетах, тем больше времени
             затем нужно, чтобы вернуться к работе.
           </p>
-        </div>
-      </section>
-    </article>
+        </article>
+      </div>
+    </section>
 
-    <article class="post post--alt-layout">
-      <section class="section">
+    <section class="post section-advices">
+      <div class="inner-section inner-section--heading">
         <h2 class="post__title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-      </section>
+      </div>
 
+      <div class="inner-section">
 
+        <h3 class="post__subtitle lead-text lead-decor">5 простых (на самом деле не очень) советов</h3>
 
-      <section class="section">
-        <div class="post__content">
-          <p class="post__subtitle lead-text lead-decor">5 простых (на самом деле не очень) советов</p>
-          <h3 class="post__lead lead-text lead-text--regular lead-decor">Представьте небо и облака</h3>
+        <article class="post__content">
+
+          <h4 class="post__lead lead-text lead-text--regular lead-decor">Представьте небо и облака</h4>
           <p class="post__description">
             Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
             успокоиться. Ведь часто именно тревожные мысли о сложных задачах как
@@ -157,18 +156,18 @@
             вернуться в настоящий момент, а не волноваться о потенциальных
             проблемах из будущего.
           </p>
-        </div>
-        <div class="post__content">
-          <h3 class="post__lead lead-text lead-text--regular lead-decor">Включите музыку</h3>
+        </article>
+        <article class="post__content">
+          <h4 class="post__lead lead-text lead-text--regular lead-decor">Включите музыку</h4>
           <p class="post__description">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
             Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
             попробовать включить плейлист с «белым шумом» или нейромузыкой.
           </p>
-        </div>
-        <div class="post__content">
-          <h3 class="post__lead lead-text lead-text--regular lead-decor">Прогуляйтесь</h3>
+        </article>
+        <article class="post__content">
+          <h4 class="post__lead lead-text lead-text--regular lead-decor">Прогуляйтесь</h4>
           <p class="post__description">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
             <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" class="link">показал</a>,
@@ -178,46 +177,42 @@
             в мозг поступит ещё больше кислорода и он будет лучше работать. Но и
             простая двадцатиминутная прогулка — тоже отличный вариант.
           </p>
-        </div>
-        <div class="post__content">
-          <h3 class="post__lead lead-text lead-text--regular lead-decor">Хорошо ешьте</h3>
+        </article>
+        <article class="post__content">
+          <h4 class="post__lead lead-text lead-text--regular lead-decor">Хорошо ешьте</h4>
           <p class="post__description">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
             высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица,
             фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
           </p>
-        </div>
-        <div class="post__content">
-          <h3 class="post__lead lead-text lead-text--regular lead-decor">Читайте</h3>
+        </article>
+        <article class="post__content">
+          <h4 class="post__lead lead-text lead-text--regular lead-decor">Читайте</h4>
           <p class="post__description">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
             прочитать пост в соцсети, достаточно нескольких минут или даже
             секунд. А вот интересная книга способна затянуть и на несколько
             часов и круто тренирует направленное внимание.
           </p>
-        </div>
-      </section>
-    </article>
+        </article>
+      </div>
+    </section>
 
-    <article class="gallery">
-      <section>
-        <h2 class="post__lead lead-text lead-decor">А можно в картинках?</h2>
-        <div class="gallery-content">
-          <img class="gallery-image" src="/images/sunset.png" alt="Изображение заката" />
-          <img class="gallery-image" src="/images/ice-cream.png" alt="Изображение мороженного" />
-          <img class="gallery-image" src="/images/tape.png" alt="Изображение аудиокассеты" />
-          <img class="gallery-image" src="/images/books.png" alt="Изображение книг" />
-          <img class="gallery-image" src="/images/street.png" alt="Изображение улицы" />
-        </div>
-      </section>
-    </article>
+    <section class="gallery">
+      <h2 class="post__lead lead-text lead-decor">А можно в картинках?</h2>
+      <div class="gallery-content">
+        <img class="gallery-image" src="/images/sunset.png" alt="Изображение заката" loading="lazy" />
+        <img class="gallery-image" src="/images/ice-cream.png" alt="Изображение мороженного" loading="lazy" />
+        <img class="gallery-image" src="/images/tape.png" alt="Изображение аудиокассеты" loading="lazy" />
+        <img class="gallery-image" src="/images/books.png" alt="Изображение книг" loading="lazy" />
+        <img class="gallery-image" src="/images/street.png" alt="Изображение улицы" loading="lazy" />
+      </div>
+    </section>
 
   </main>
-  <footer class="footer">
-    <div class="decoration-border decoration-border--top-right"></div>
-    <div class="decoration-border decoration-border--bottom-left"></div>
-    <h2 class="caption-text">focus</h2>
+  <footer class="footer decorated-zone">
+    <h2 class="caption-text caption-text--secondary">focus</h2>
   </footer>
 </body>
 

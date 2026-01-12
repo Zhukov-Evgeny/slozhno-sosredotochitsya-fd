@@ -5,7 +5,7 @@
 */
 
 :root.theme-dark {
-  --bg-path: url(/images/cover-image-dark.png);
+  --bg-path: url(../images/cover-image-dark.png);
   --button-color: var(--neon-pink);
   --color-accent: var(--neon-pink);
   --color-text-main: var(--powder-pink);
