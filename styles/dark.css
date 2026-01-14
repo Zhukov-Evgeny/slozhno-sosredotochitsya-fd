@@ -15,3 +15,11 @@
   --color-title: var(--neon-purple);
   --decoration-color: var(--neon-pink);
 }
+
+.theme-dark .rec {
+  display: flex;
+}
+
+.theme-dark .header__theme-menu-button:hover {
+  border: 1px solid var(--neon-pink-alpha);
+}
